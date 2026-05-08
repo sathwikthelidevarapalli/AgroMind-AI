@@ -102,3 +102,19 @@ npm start
 - Existing legacy scripts (`Backend.py`, `CRS.py`, `soilNET.py`) remain for reference; the new entrypoint is `backend/app.py`.
 - The training data is synthetic and driven by available crop revenue metadata—swap in a real agronomic dataset to improve accuracy.
 
+## Output Screenshots
+
+Add your captured UI images to `docs/screenshots/` with the following names to render this gallery on GitHub:
+
+### Home
+![Home Hero](docs/screenshots/home-hero.png)
+![Home Platform Advantages](docs/screenshots/home-platform-advantages.png)
+![Home How It Works](docs/screenshots/home-how-it-works.png)
+
+### Dashboard
+![Dashboard Input Form](docs/screenshots/dashboard-input-form.png)
+
+### Results
+![Results Ranked Crops](docs/screenshots/results-ranked-crops.png)
+![Results Explainable AI](docs/screenshots/results-explainable-ai.png)
+
