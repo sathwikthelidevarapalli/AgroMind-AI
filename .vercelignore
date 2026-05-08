@@ -1,0 +1,9 @@
+# Ignore Python backend files from Vercel analysis
+app.py
+backend/
+Procfile
+requirements.txt
+*.pkl
+.venv/
+*.pyc
+__pycache__/
