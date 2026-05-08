@@ -1,9 +1,14 @@
-# Ignore Python backend files from Vercel analysis
+# Ignore Python backend files - build only React frontend
 app.py
+Backend.py
 backend/
 Procfile
+Procfile.windows
 requirements.txt
 *.pkl
 .venv/
 *.pyc
 __pycache__/
+build.sh
+*.egg-info/
+dist/
