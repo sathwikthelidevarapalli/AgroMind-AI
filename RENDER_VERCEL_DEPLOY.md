@@ -23,8 +23,8 @@ Fill in the following settings:
 | **Region** | `Singapore` (or closest to you) |
 | **Branch** | `main` |
 | **Root Directory** | (leave empty) |
-| **Build Command** | `pip install -r requirements.txt && python backend/train_model.py` |
-| **Start Command** | `cd backend && gunicorn app:app` |
+| **Build Command** | `pip install -r requirements.txt` |
+| **Start Command** | `gunicorn app:app` |
 | **Instance Type** | `Free` |
 
 ### Step 4: Add Environment Variables

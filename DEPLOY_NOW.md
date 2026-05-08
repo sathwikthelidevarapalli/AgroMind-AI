@@ -36,8 +36,8 @@ Your project is **fully configured** and ready for free deployment on Render + V
 3. Select **AgroMind-AI** repository
 4. Fill in:
    - **Name**: `agromind-backend`
-   - **Build Command**: `pip install -r requirements.txt && python backend/train_model.py`
-   - **Start Command**: `cd backend && gunicorn app:app`
+   - **Build Command**: `pip install -r requirements.txt`
+   - **Start Command**: `gunicorn app:app`
 5. **Add Environment Variables**:
    - `FLASK_ENV` = `production`
    - `FLASK_DEBUG` = `0`

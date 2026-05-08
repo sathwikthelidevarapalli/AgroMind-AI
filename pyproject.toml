@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agromind-backend"
+version = "1.0.0"
+description = "AI-powered crop recommendation system"
+
+[tool.vercel]
+entrypoint = "app.py"
